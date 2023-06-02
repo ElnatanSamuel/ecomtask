@@ -11,46 +11,30 @@ import "swiper/css";
 import "swiper/swiper-bundle.min.css";
 import "swiper/css/pagination";
 import "swiper/swiper.min.css";
+import Hero from "../../components/Hero/Hero";
+import SpecialOffer from "../../components/SpecialOffer/SpecialOffer";
+import FlashSale from "../../components/FlashSale/FlashSale";
+import Popular from "../../components/Popular/Popular";
+import Featured from "../../components/Featured/Featured";
+import TopCategories from "../../components/TopCategories/TopCategories";
+import RecentlyAdded from "../../components/RecentlyAdded/RecentlyAdded";
+import Advert from "../../components/Advert/Advert";
+import OverView from "../../components/OverView/OverView";
 
 SwiperCore.use([Pagination, FreeMode, Autoplay]);
 
 const Home = () => {
   return (
-    <div className="home max-w-7xl m-auto">
-      <Swiper
-        spaceBetween={100}
-        slidesPerView={1}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
-        pagination={true}
-        freeMode={true}
-        autoplay={true}
-      >
-        <SwiperSlide>
-          <img
-            src="https://images.pexels.com/photos/837140/pexels-photo-837140.jpeg?auto=compress&cs=tinysrgb&w=1600"
-            alt=""
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="https://images.pexels.com/photos/837140/pexels-photo-837140.jpeg?auto=compress&cs=tinysrgb&w=1600"
-            alt=""
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="https://images.pexels.com/photos/837140/pexels-photo-837140.jpeg?auto=compress&cs=tinysrgb&w=1600"
-            alt=""
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="https://images.pexels.com/photos/837140/pexels-photo-837140.jpeg?auto=compress&cs=tinysrgb&w=1600"
-            alt=""
-          />
-        </SwiperSlide>
-      </Swiper>
+    <div className="home w-full max-w-7xl m-auto">
+      <Hero />
+      <FlashSale />
+      <SpecialOffer />
+      <Popular />
+      <Featured />
+      <TopCategories />
+      <RecentlyAdded />
+      <Advert />
+      <OverView />
     </div>
   );
 };

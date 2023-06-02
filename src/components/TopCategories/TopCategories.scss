@@ -1,0 +1,47 @@
+.topcategory{
+    margin-top: 40px;
+
+        h1{
+            font-size: 30px;
+            font-weight: 900;
+            text-align: center;
+        }
+
+        .categories{
+            display: grid;
+            grid-template-columns: repeat(5, minmax(0, 1fr));
+            margin-top: 40px;
+
+                .categoryitem{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 20px;
+
+                            img{
+                                width: 200px;
+                                height: 200px;
+                                object-fit: cover;
+                                border-radius: 50%;
+                                cursor: pointer;
+                            }
+                            
+                            p{
+                                font-size: 14px;
+                                font-weight: 900;
+                                opacity: .6;
+                                cursor: pointer;
+                            }
+                }
+        }
+}
+
+@media (max-width: 1024px) {
+    .topcategory{
+        padding: 40px;
+        .categories{
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 40px;
+        }
+    }
+}

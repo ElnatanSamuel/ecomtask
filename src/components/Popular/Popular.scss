@@ -1,0 +1,145 @@
+.popular{
+    margin: 40px 0px;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+
+        .left{
+            flex: 3;
+
+            .top{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                    h1{
+                        font-size: 24px;
+                        font-weight: 900;
+                    }
+
+                    .seminav{
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+
+                            .navitem{
+                                font-size: 14px;
+                                font-weight: 900;
+                                opacity: .6;
+                                cursor: pointer;
+                            }
+
+                            .special{
+                                font-size: 14px;
+                                font-weight: 900;
+                                opacity: .6;
+                                color: #e63221;
+                                cursor: pointer;
+                            }
+                    }
+            }
+
+            .bottom{
+                margin-top: 40px;
+                display: grid;
+                grid-template-columns: repeat(3, minmax(0, 1fr));
+                gap: 30px;
+            }
+        }
+
+        .right{
+            flex: 1;
+            background: #e9f3f2;
+            width: 100%;
+            height: 715px;
+            cursor: pointer;
+
+                .details{
+                    padding: 40px;
+
+                        span{
+                            font-size: 12px;
+                            font-weight: 900;
+                            color: #afd1e5;
+                        }
+
+                        h1{
+                            font-size: 30px;
+                            font-weight: 900;
+                        }
+
+                        p{
+                            font-size: 14px;
+                            font-weight: 900;
+                            opacity: .4;
+                        }
+
+                        .sale{
+                            margin-top: 30px;
+
+                            p{
+                                opacity: .7;
+                                font-size: 12px;
+                            }
+
+                            .prices{
+                                display: flex;
+                                
+                                    .newprice{
+                                        font-size: 28px;
+                                        font-weight: 900;
+                                        color: #e63221;
+                                    }
+
+                                    .oldprice{
+                                        opacity: .6;
+                                        text-decoration: line-through;
+                                        font-size: 14px;
+                                        font-weight: 900;
+                                    }
+                            }
+                        }
+                }
+
+                .images{
+                    margin-top: 10px;
+
+                        img{
+                            width: 300px;
+                            height: 500px;
+                            // object-fit: contain;
+                        }
+                }
+        }
+
+}
+
+@media (max-width: 1024px) {
+    .popular{
+        padding: 40px;
+        .left{
+            flex: 2;
+
+            .bottom{
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .popular{
+        padding: 40px;
+        .left{
+            flex: 2;
+
+            .bottom{
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        .right{
+            display: none;
+        }
+    }
+}

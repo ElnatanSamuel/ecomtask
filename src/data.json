@@ -1,0 +1,198 @@
+[
+  {
+    "id": 1,
+    "title": "DualShock 4",
+    "category": "Video Games",
+    "price": 50,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvr74iE847p7Jv-lX1eIvTIkdX97-Eb2mUPg&usqp=CAU",
+    "CategoryId": 100,
+    "desc": "lorem ipsun......",
+    "quantity": 1,
+    "brand": 5
+  },
+  {
+    "id": 2,
+    "title": "Huawei Headphones",
+    "category": "Cameras & Headphones",
+    "price": 34,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSeVPx4caGLxOAAiYVBMegpEINF8RrwfZwEQ&usqp=CAU",
+    "CategoryId": 101,
+    "desc": "lorem ipsun......",
+    "quantity": 1,
+    "brand": 2
+  },
+  {
+    "id": 3,
+    "title": "JBL Pulse 2",
+    "category": "Computers & Accessories",
+    "price": 75,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHy0VSlxGMpIw2S4X7Lp25mJqDfSkJTH19nA&usqp=CAU",
+    "CategoryId": 102,
+    "desc": "lorem ipsun......",
+    "quantity": 1,
+    "brand": 10
+  },
+  {
+    "id": 4,
+    "title": "MI Smart Clock",
+    "category": "Smartwatches",
+    "price": 68,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9QE5IGEEhiAxv5E6rZ0QY7c5PIjdcuJqKdQ&usqp=CAU",
+    "CategoryId": 104,
+    "desc": "lorem ipsun......",
+    "quantity": 1,
+    "brand": 7
+  },
+  {
+    "id": 5,
+    "title": "AirPod pro",
+    "category": "Cameras & Headphones",
+    "price": 20,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW0qoIHbVBez943-8O3JW-nUDIIJBBVKcK_w&usqp=CAU",
+    "CategoryId": 101,
+    "desc": "lorem ipsun......",
+    "quantity": 1,
+    "brand": 1
+  },
+  {
+    "id": 6,
+    "title": "Imac Pro",
+    "category": "Computers & Accessories",
+    "price": 68,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9eoZ_MgG6Z_-bsmKvmpFGawUbEXRsFgcsVQ&usqp=CAU",
+    "CategoryId": 102,
+    "desc": "lorem ipsun......",
+    "quantity": 1,
+    "brand": 1
+  },
+  {
+    "id": 7,
+    "title": "Apple Iphone X",
+    "category": "CellPhone",
+    "price": 100,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJa6dB6BcnFezSDnQsGhXkXZ1ZOT6L8UT6Ag&usqp=CAU",
+    "CategoryId": 105,
+    "desc": "lorem ipsun......",
+    "quantity": 1,
+    "brand": 1
+  },
+  {
+    "id": 8,
+    "title": "Apple Iphone 11",
+    "category": "CellPhone",
+    "price": 106,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSddpj_S00Cg3-sCWznCAsB97X7dQqLT9VpdA&usqp=CAU",
+    "CategoryId": 105,
+    "desc": "lorem ipsun......",
+    "quantity": 1,
+    "brand": 1
+  },
+  {
+    "id": 9,
+    "title": "Xiaomi Redmi Note 12",
+    "category": "CellPhone",
+    "price": 156,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOlTDJ4gILwfkMrsq1XGDaEjvRXC4m1Iojg&usqp=CAU",
+    "CategoryId": 105,
+    "desc": "lorem ipsun......",
+    "quantity": 1,
+    "brand": 7
+  },
+  {
+    "id": 10,
+    "title": "Samsung Galaxy A13",
+    "category": "CellPhone",
+    "price": 135,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStV8AugiHEidih1R-85J9x3xao-6WcskX07Q&usqp=CAU",
+    "CategoryId": 105,
+    "desc": "lorem ipsun......",
+    "quantity": 1
+  },
+  {
+    "id": 11,
+    "title": "Apple MacBook Air",
+    "category": "Computers & Accessories",
+    "price": 145,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4q8oH3Xl_C2mZwp04Mz-iL6KMIKLJDtqs8w&usqp=CAU",
+    "CategoryId": 102,
+    "desc": "lorem ipsun......",
+    "quantity": 1,
+    "brand": 8
+  },
+  {
+    "id": 12,
+    "title": "Dell XPS 15",
+    "category": "Computers & Accessories",
+    "price": 400,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOjYiWEjJaHGdu05MNgwP1c7jQCtUTbDmpIA&usqp=CAU",
+    "CategoryId": 102,
+    "desc": "lorem ipsun......",
+    "quantity": 1,
+    "brand": 4
+  },
+  {
+    "id": 13,
+    "title": "Apple Smart Watch",
+    "category": "Computers & Accessories",
+    "price": 300,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmMBKog67bJeCQSp7czcDo5hL-hMAfzqfvyg&usqp=CAU",
+    "CategoryId": 107,
+    "desc": "lorem ipsun......",
+    "quantity": 1,
+    "brand": 1
+  },
+  {
+    "id": 14,
+    "title": "Xiaomi Smart Watch",
+    "category": "Computers & Accessories",
+    "price": 353,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROqMKvP7cpT3BQDCh7lcEk6Z0XaSZsy_h25w&usqp=CAU",
+    "CategoryId": 107,
+    "desc": "lorem ipsun......",
+    "quantity": 1,
+    "brand": 7
+  },
+  {
+    "id": 15,
+    "title": "Polaroid Camera",
+    "category": "Cameras & Headphones",
+    "price": 195,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2vGhWVQKC5C-OBomeAQ2QucvAj-ObvAasiQ&usqp=CAU",
+    "CategoryId": 101,
+    "desc": "lorem ipsun......",
+    "quantity": 1
+  },
+  {
+    "id": 16,
+    "title": "PlayStation 5",
+    "category": "Video Games",
+    "price": 674,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_cMZe8FtiOlwUSQqvpES-p_bNidlQxEZKGg&usqp=CAU",
+    "CategoryId": 100,
+    "desc": "lorem ipsun......",
+    "quantity": 1,
+    "brand": 5
+  },
+  {
+    "id": 17,
+    "title": "Samsung TV",
+    "category": "TV",
+    "price": 575,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyezxCfyJz96XpAIGpRHellXtxxYbHlgidrItWeZpspRJVK-HxAB1929rIa6nahYEO3co&usqp=CAU",
+    "CategoryId": 110,
+    "desc": "lorem ipsun......",
+    "quantity": 1,
+    "brand": 8
+  },
+  {
+    "id": 18,
+    "title": "LG TV",
+    "category": "TV",
+    "price": 164,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTisJwWOoquky2dtNKRnlndcH5GMsIcrpoUKw&usqp=CAU",
+    "CategoryId": 110,
+    "desc": "lorem ipsun......",
+    "quantity": 1,
+    "brand": 9
+  }
+]

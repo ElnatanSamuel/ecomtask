@@ -1,0 +1,32 @@
+.header{
+    background: #f3f3f3;
+    padding: 10px;
+
+        .content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          
+
+                .left{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    color: #c4c4c4;
+                    font-size: 14px;
+                }
+
+                .right{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    color: #c4c4c4;
+
+                        .drop{
+                            display: flex;
+                            align-items: center;
+                            cursor: pointer;
+                        }
+                }
+        }
+}

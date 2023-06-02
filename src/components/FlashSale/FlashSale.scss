@@ -1,0 +1,66 @@
+.flashsale{
+    margin: 40px 0px;
+
+        .top{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+                h1{
+                    font-size: 24px;
+                    font-weight: 900;
+                }
+
+                .clock{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                        p{
+                            opacity:.6;
+                            font-size: 12px;
+                            font-weight: 700;
+
+                        }
+
+                        .countdown{
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+
+                                p{
+                                    padding: 10px;
+                                    background: #e63221;
+                                    opacity: 1;
+                                    font-size: 14px;
+                                    color: white;
+                                }
+                        }
+                }
+        }
+
+        .bottom{
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            width: 100%;
+            gap: 30px;
+            margin-top: 40px;
+        }
+}
+
+@media (max-width: 1024px) {
+    .flashsale{
+        padding: 40px;
+        .bottom{
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .flashsale{
+        .bottom{
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+    }
+}

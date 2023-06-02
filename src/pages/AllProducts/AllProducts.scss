@@ -1,0 +1,102 @@
+.products{
+    padding: 30px 50px;
+    display: flex;
+    gap: 20px;
+
+        .left{
+            flex: 1;
+            height: 100%;
+
+            .leftoption{
+                flex: 2;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 20px;
+    
+                    .option{
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        padding: 20px;
+                        background: #e7412f;
+                        color: white;
+                        font-weight: bold;
+                    }
+    
+                    .catagories{
+                        display: flex;
+                        flex-direction: column;
+                        padding: 30px;
+                        background: #f8f8f8;
+                        gap: 30px;
+                       
+                            .category{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                color: #c2c2c2;
+                                cursor: pointer;
+                            }
+                    }
+            }
+
+
+                .filterItem{
+                    margin-bottom: 30px;
+
+                        h2{
+                            font-weight: 400;
+                            margin-bottom: 20px;
+                        }
+
+                        .inputItem{
+                            margin-bottom: 10px;
+
+                                label{
+                                    margin-left: 10px;
+                                }
+                        }
+                }
+        }
+
+        .right{
+            flex: 3;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+                .catImg{
+                    width: 100%;
+                    height: 300px;
+                    object-fit: cover;
+                    margin-bottom: 50px;
+                }
+
+                .categories{
+                    display: grid;
+                    grid-template-columns: repeat(3, minmax(0, 1fr));
+                    gap: 40px;
+                    flex-wrap: wrap;
+                }
+        }
+}
+
+@media (max-width: 1024px) {
+    .products{
+       .left{
+
+        .leftoption{
+            display: none;
+        }
+       }
+
+       .right{
+        .catImg{
+            height: 200px;
+        }
+        .categories{
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+       }
+    }
+}
