@@ -9,7 +9,6 @@ import RecentlyAdded from "../../components/RecentlyAdded/RecentlyAdded";
 
 const Products = () => {
   const catId = parseInt(useParams().id);
-  console.log(catId);
   const [maxPrice, setMaxPrice] = useState(10);
   const [sort, setSort] = useState(null);
   const [brand, setBrand] = useState(null);
@@ -69,6 +68,7 @@ const Products = () => {
             <div className="inputItem">
               <span>$0</span>
               <input
+                className="rangeinput"
                 type="range"
                 min={0}
                 max={1000}

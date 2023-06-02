@@ -91,3 +91,16 @@
       cursor: pointer;
     }
   }
+
+  @media (max-width: 425px){
+    .cart{
+      width: 300px;
+      h1 {
+        font-size: 18px;
+      }
+  
+      p{
+          font-size: 8px;
+      }
+    }
+  }

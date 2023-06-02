@@ -66,6 +66,27 @@
     .top{
 
        grid-template-columns: repeat(2, minmax(0, 1fr));
+       .item{
+        h1{
+          font-size: 14px;
+        }
+        span{
+          font-size: 8px;
+        }
+       }
+    }
+    .bottom{
+      .right{
+        display: none;
+      }
+      .left{
+        .logo{
+          font-size: 18px;
+        }
+        .copyright{
+          font-size: 10px;
+        }
+      }
     }
   }
 }

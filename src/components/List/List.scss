@@ -40,3 +40,21 @@
                 }
         }
 }
+
+@media (max-width: 375px) {
+    .list{
+        .details{
+            .topdetail{
+                font-size: 12px;
+            }
+            .bottomdetail{
+                p{
+                    font-size: 14px;
+                }
+                span{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

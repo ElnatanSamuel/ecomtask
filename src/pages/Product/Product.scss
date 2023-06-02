@@ -125,3 +125,29 @@
         
           }
 }
+
+
+@media (max-width: 425px){
+  .product{
+    flex-direction: column;
+    .left{
+      .images{
+        display: none;
+      }
+    }
+
+    .right{
+            h1{
+                font-size: 24px;
+            }
+        
+            .price{
+              font-size: 20px;
+            }
+        
+            p{
+              font-size: 12px;
+            }
+    }
+  }
+}

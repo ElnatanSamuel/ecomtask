@@ -197,6 +197,23 @@
 
                     .row{
                         flex: 1;
+                        .details{
+                            h1{
+                                font-size: 12px;
+                            }
+
+                            .minorDetails{
+                                p{
+                                    font-size: 8px;
+                                }
+
+                                .prices{
+                                    .newprice{
+                                        font-size: 18px;
+                                    }
+                                }
+                            }
+                        }
                     }
             }
         }

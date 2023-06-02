@@ -64,3 +64,53 @@
         }
     }
 }
+
+@media (max-width: 425px) {
+    .flashsale{
+        .top{
+            h1{
+                font-size: 16px;
+            }
+            .clock{
+                p{
+                    font-size: 6px;
+                }
+
+                .countdown{
+                        p{
+                            padding: 6px;
+                            font-size: 8px;
+                        }
+                }
+            }
+        }
+        .bottom{
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+    }
+}
+
+@media (max-width: 325px) {
+    .flashsale{
+        .top{
+            h1{
+                font-size: 14px;
+            }
+            .clock{
+                p{
+                    font-size: 6px;
+                }
+
+                .countdown{
+                        p{
+                            padding: 4px;
+                            font-size: 6px;
+                        }
+                }
+            }
+        }
+        .bottom{
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+    }
+}

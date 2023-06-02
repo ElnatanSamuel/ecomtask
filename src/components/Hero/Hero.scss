@@ -30,7 +30,7 @@
                             display: flex;
                             align-items: center;
                             justify-content: space-between;
-                            color: #c2c2c2;
+                            color: rgba(0,0,0,.4);
                             cursor: pointer;
                         }
                 }
@@ -402,18 +402,108 @@
 
 @media (max-width: 425px) {
     .hero{
+        margin-top: -20px;
         .right{
+            .roof{
+                display: none;
+            }
             .herosection{
+                 
                 .swiper{
                     width: 340px;
+                    flex: 1;
                     .col{
                         .row{
+                            height: 170px;
+                            padding: 20px;
+                            .image{
+                                img{
+                                    width: 200px;
+                                    height: 80px;
+                                }
+                            }
+                            .details{
+                                 span{
+                                     font-size: 6px;
+                                 }
+
+                                 h1{
+                                     font-size: 14px;
+                                 }
+
+                                 p{
+                                     font-size: 6px;
+                                 }
+
+                                 button{
+                                     margin-top: 10px;
+                                     font-size: 8px;
+                                     width: 60px;
+                                     padding: 8px 0px;
+                                 }
+                             }
 
                         }
                         .row2{
+                            height: 170px;
+                            padding: 20px;
+                            .image{
+                                img{
+                                    width: 200px;
+                                    height: 80px;
+                                }
+                            }
+                            .details{
+                                 span{
+                                     font-size: 6px;
+                                 }
+
+                                 h1{
+                                     font-size: 14px;
+                                 }
+
+                                 p{
+                                     font-size: 6px;
+                                 }
+
+                                 button{
+                                     margin-top: 10px;
+                                     font-size: 8px;
+                                     width: 60px;
+                                     padding: 8px 0px;
+                                 }
+                             }
 
                         }
                         .row3{
+                            height: 170px;
+                            padding: 20px;
+                            .image{
+                                img{
+                                    width: 200px;
+                                    height: 80px;
+                                }
+                            }
+                            .details{
+                                 span{
+                                     font-size: 6px;
+                                 }
+
+                                 h1{
+                                     font-size: 14px;
+                                 }
+
+                                 p{
+                                     font-size: 6px;
+                                 }
+
+                                 button{
+                                     margin-top: 10px;
+                                     font-size: 8px;
+                                     width: 60px;
+                                     padding: 8px 0px;
+                                 }
+                             }
 
                         }
                     }
@@ -431,3 +521,197 @@
         }
     }
 }
+
+
+@media (max-width: 375px){
+    .hero{
+        .right{
+            .herosection{
+                .swiper{
+                    width: 290px;
+                    
+                        }
+                    }
+                }
+
+                .lefthero{
+                    .col{
+                        .row{
+                            .details{
+                                h1{
+                                    font-size: 14px;
+                                }
+                                .minorDetails{
+                                    p{
+                                        font-size: 8px;
+                                    }
+
+                                    .prices{
+                                        .newprice{
+                                            font-size: 12px;
+                                        }
+                                        .oldprice{
+                                            font-size: 8px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .row2{
+                            .details{
+                                h1{
+                                    font-size: 14px;
+                                }
+                                .minorDetails{
+                                    p{
+                                        font-size: 8px;
+                                    }
+
+                                    .prices{
+                                        .newprice{
+                                            font-size: 12px;
+                                        }
+                                        .oldprice{
+                                            font-size: 8px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+@media (max-width: 325px){
+    .hero{
+        .right{
+            .herosection{
+                .swiper{
+                    width: 240px;
+                    .col{
+                        .row{
+                            .details{
+                                span{
+                                    font-size: 6px;
+                                }
+
+                                h1{
+                                    font-size: 12px;
+                                    line-height: 18px;
+                                }
+
+                                p{
+                                    font-size: 6px;
+                                }
+
+                                button{
+                                    margin-top: 6px;
+                                    font-size: 8px;
+                                    width: 60px;
+                                    padding: 6px 0px;
+                                }
+                            }
+                        }
+                        .row2{
+                            .details{
+                                span{
+                                    font-size: 6px;
+                                }
+
+                                h1{
+                                    font-size: 12px;
+                                    line-height: 18px;
+                                }
+
+                                p{
+                                    font-size: 6px;
+                                }
+
+                                button{
+                                    margin-top: 6px;
+                                    font-size: 8px;
+                                    width: 60px;
+                                    padding: 6px 0px;
+                                }
+                            }
+                        }
+                        .row3{
+                            .details{
+                                span{
+                                    font-size: 6px;
+                                }
+
+                                h1{
+                                    font-size: 12px;
+                                    line-height: 18px;
+                                }
+
+                                p{
+                                    font-size: 6px;
+                                }
+
+                                button{
+                                    margin-top: 6px;
+                                    font-size: 8px;
+                                    width: 60px;
+                                    padding: 6px 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .lefthero{
+                    .col{
+                        .row{
+                            .details{
+                                h1{
+                                    font-size: 12px;
+                                }
+                                .minorDetails{
+                                    p{
+                                        font-size: 8px;
+                                    }
+
+                                    .prices{
+                                        .newprice{
+                                            font-size: 10px;
+                                        }
+                                        .oldprice{
+                                            font-size: 8px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .row2{
+                            .details{
+                                h1{
+                                    font-size: 12px;
+                                }
+                                .minorDetails{
+                                    p{
+                                        font-size: 8px;
+                                    }
+
+                                    .prices{
+                                        .newprice{
+                                            font-size: 10px;
+                                        }
+                                        .oldprice{
+                                            font-size: 8px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

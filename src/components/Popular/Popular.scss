@@ -132,9 +132,23 @@
         padding: 40px;
         .left{
             flex: 2;
+            .top{
+                h1{
+                    font-size: 16px;
+                }
 
+                .seminav{
+                        .navitem{
+                            font-size: 8px;
+                        }
+
+                        .special{
+                            font-size: 8px;
+                        }
+                }
+            }
             .bottom{
-                grid-template-columns: repeat(2, minmax(0, 1fr));
+                grid-template-columns: repeat(1, minmax(0, 1fr));
             }
         }
 
@@ -143,3 +157,4 @@
         }
     }
 }
+

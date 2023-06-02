@@ -45,3 +45,14 @@
         }
     }
 }
+
+@media (max-width: 425px) {
+    .topcategory{
+        h1{
+            font-size: 18px;
+        }
+        .categories{
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+    }
+}

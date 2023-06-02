@@ -5,6 +5,8 @@ import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlin
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
 import ShoppingBagOutlinedIcon from "@mui/icons-material/ShoppingBagOutlined";
 import ExpandMoreOutlinedIcon from "@mui/icons-material/ExpandMoreOutlined";
+import { UilShoppingBag } from "@iconscout/react-unicons";
+import { UilHeart } from "@iconscout/react-unicons";
 import { Link } from "react-router-dom";
 import Cart from "../Cart/Cart";
 import WishList from "../WishList/WishList";
@@ -41,6 +43,7 @@ const Navbar = () => {
       <div className="right">
         <div className="icon">
           <PersonOutlineOutlinedIcon
+            className="avatar"
             sx={{ fontSize: "42px", color: "#7b7b7b" }}
           />
           <div className="detail">
@@ -49,17 +52,19 @@ const Navbar = () => {
           </div>
         </div>
         <div className="icon" onClick={(e) => setWishOpen(!wishOpen)}>
-          <FavoriteBorderOutlinedIcon
+          {/* <FavoriteBorderOutlinedIcon
             sx={{ fontSize: "30px", color: "#7b7b7b" }}
-          />
+          /> */}
+          <UilHeart className="icont" color="#7b7b7b" />
           <div className="count">
             <span>0</span>
           </div>
         </div>
         <div className="icon" onClick={(e) => setCartOpen(!cartOpen)}>
-          <ShoppingBagOutlinedIcon
+          {/* <ShoppingBagOutlinedIcon
             sx={{ fontSize: "30px", color: "#7b7b7b" }}
-          />
+          /> */}
+          <UilShoppingBag className="icont" color="#7b7b7b" />
           <div className="count">
             <span>{cartQuantity}</span>
           </div>

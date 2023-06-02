@@ -74,7 +74,7 @@
         .left{
             .details{
                 h1{
-                    font-size: 2opx;
+                    font-size: 20px;
                 }
                 p{
                     font-size: 12px;
@@ -97,6 +97,46 @@
             img{
                 width: 250px;
                 height: 150px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 425px) {
+    .advert{
+        height: 150px;
+        .left{
+            .details{
+                h1{
+                    font-size: 16px;
+                }
+                p{
+                    font-size: 6px;
+                }
+            }
+           
+        }
+        .price{
+            display: none;
+            }
+        .right{
+            img{
+                width: 300px;
+                height: 150px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 325px) {
+    .advert{
+        height: 150px;
+        .right{
+            img{
+                width: 180px;
+                height: 80px;
             }
         }
     }

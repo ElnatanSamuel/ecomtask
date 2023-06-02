@@ -100,3 +100,31 @@
        }
     }
 }
+
+@media (max-width: 425px) {
+    .products{
+       .left{
+
+        .leftoption{
+            display: none;
+        }
+       }
+
+       .right{
+        .catImg{
+            height: 200px;
+        }
+        .categories{
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+       }
+    }
+}
+
+@media (max-width: 325px) {
+    .products{
+        .left{
+            display: none;
+        }
+    }
+}
